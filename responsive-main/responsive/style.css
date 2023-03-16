@@ -1,0 +1,157 @@
+ body{
+    background-color: rgb(213, 225, 239);
+  
+
+   }
+   img{
+    width: 100%;
+   }
+   .card-component{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin-top:-450px;
+
+
+   }
+
+.card{
+  margin-top: 70px;
+  align-items: center;
+  width: 470px;
+  height: 650px;
+  background:rgb(255, 255, 255);
+  border-radius: 20px;
+  align-items: center;
+}
+.card-img{
+  border-top-left-radius: 20px;
+  border-top-right-radius:20px ;
+}
+
+.title{
+  font-family: 'Red Hat Display', sans-serif;
+  width: 200px;
+  height: 60px;
+  margin:20px auto;
+}
+p{
+
+font-weight: 500;
+ 
+  margin: auto;
+  width: 259px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+.change{
+  margin:20px auto;
+  width: 360px;
+  height: 100px;
+  border-radius: 11px;
+  background-color: rgb(247, 249, 255);
+  display: flex;
+}
+.annual{
+ text-align: center;
+
+  width: 210px;
+  height: 100px;
+}
+.plan{
+  margin-left: -50px;
+}
+.year{
+  width: 80px;
+  height: 30px;
+  margin-top: -14px;
+  margin-left: 17px;
+}
+.click-changes{
+  text-decoration: none;
+  color: #766CF1;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.click{
+  width: 70px;
+  height: 50px;
+  margin-top: 34px;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  margin-top: 22px;
+  margin-left: 15px;
+}
+
+.payment{
+  width: 360px;
+  height: 50px;
+  margin-left: 54px;
+  border-radius: 11px;
+  background-color: #382AE1;
+ border: none;
+}
+.order{
+  
+
+  color: #717FA6;
+  text-decoration: none;
+}
+.cancel{
+  width: 160px;
+  height: 50px;
+  margin:15px auto;
+}
+.proceed{
+  text-decoration: none;
+  color: #ffff;
+}
+
+
+@media screen and (max-width: 1600px){
+  .card-component{
+    margin-top: -370px;
+  }
+}
+
+@media screen and (max-width: 1600px){
+  .card-component{
+    margin-top: -300px;
+  }
+}
+@media screen and (max-width: 800px){
+  .card-component{
+    margin-top: -200px;
+  }
+}
+@media screen and (max-width: 800px){
+  .card-component{
+    margin-top: -150px;
+  }
+}
+@media screen and (max-width: 600px){
+  .card{
+    width:400px ;
+  }
+  .payment{
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 480px){
+  .card{
+    width:300px ;
+  }
+  .payment{
+    margin-left: 12px;
+    width: 280px;
+  }
+  .change{
+    width: 290px;
+  }
+}
